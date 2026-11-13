@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="920" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="accentCyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="accentGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="chartFill2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Browser Frame -->
+  <rect width="920" height="560" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="1.5"/>
+  
+  <!-- Top Bar -->
+  <rect x="1" y="1" width="918" height="44" rx="15" fill="#0F172A"/>
+  <line x1="0" y1="45" x2="920" y2="45" stroke="#1E293B" stroke-width="1.5"/>
+  <circle cx="22" cy="23" r="5.5" fill="#EF4444"/>
+  <circle cx="40" cy="23" r="5.5" fill="#F59E0B"/>
+  <circle cx="58" cy="23" r="5.5" fill="#10B981"/>
+  
+  <!-- Breadcrumb & Command Bar -->
+  <rect x="86" y="12" width="190" height="22" rx="6" fill="#1E293B"/>
+  <text x="98" y="27" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Tuxtopia Enterprise Suite v15.4</text>
+  
+  <rect x="330" y="10" width="280" height="26" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <text x="346" y="27" fill="#64748B" font-family="Inter, system-ui, sans-serif" font-size="11">Search vouchers, ledgers, BOMs, SKUs... (Ctrl+K)</text>
+
+  <!-- Status Pill -->
+  <rect x="760" y="12" width="140" height="22" rx="11" fill="#064E3B" stroke="#059669" stroke-width="1"/>
+  <circle cx="774" cy="23" r="4" fill="#10B981"/>
+  <text x="784" y="27" fill="#A7F3D0" font-family="Inter, system-ui, sans-serif" font-size="10.5" font-weight="600">Multi-Entity Sync Live</text>
+
+  <!-- Left Navigation Sidebar -->
+  <rect x="1" y="46" width="185" height="513" fill="#0F172A"/>
+  <line x1="186" y1="45" x2="186" y2="560" stroke="#1E293B" stroke-width="1.5"/>
+
+  <text x="20" y="74" fill="#64748B" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1">CORE MODULES</text>
+  
+  <rect x="12" y="86" width="162" height="32" rx="7" fill="url(#accentCyan)" fill-opacity="0.18" stroke="#38BDF8" stroke-width="1"/>
+  <circle cx="28" cy="102" r="4" fill="#38BDF8"/>
+  <text x="42" y="106" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Executive Desk</text>
+
+  <g fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500">
+    <text x="42" y="140">Financial Accounting</text>
+    <circle cx="28" cy="136" r="3.5" fill="#6366F1"/>
+    <text x="42" y="172">Inventory &amp; Warehouses</text>
+    <circle cx="28" cy="168" r="3.5" fill="#10B981"/>
+    <text x="42" y="204">Manufacturing &amp; MRP</text>
+    <circle cx="28" cy="200" r="3.5" fill="#F59E0B"/>
+    <text x="42" y="236">Sales &amp; Omnichannel</text>
+    <circle cx="28" cy="232" r="3.5" fill="#EC4899"/>
+    <text x="42" y="268">Procurement &amp; Portal</text>
+    <circle cx="28" cy="264" r="3.5" fill="#38BDF8"/>
+    <text x="42" y="300">HR, Payroll &amp; Shifts</text>
+    <circle cx="28" cy="296" r="3.5" fill="#A855F7"/>
+    <text x="42" y="332">Projects &amp; Billing</text>
+    <circle cx="28" cy="328" r="3.5" fill="#14B8A6"/>
+    <text x="42" y="364">Retail Cloud POS</text>
+    <circle cx="28" cy="360" r="3.5" fill="#F97316"/>
+    <text x="42" y="396">Workflow Automation</text>
+    <circle cx="28" cy="392" r="3.5" fill="#60A5FA"/>
+  </g>
+
+  <!-- Sidebar Footer Card -->
+  <rect x="14" y="472" width="158" height="72" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <text x="26" y="492" fill="#E2E8F0" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Automated Audit Engine</text>
+  <text x="26" y="508" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="10">0 unreconciled vouchers</text>
+  <rect x="26" y="520" width="134" height="6" rx="3" fill="#0F172A"/>
+  <rect x="26" y="520" width="128" height="6" rx="3" fill="url(#accentGreen)"/>
+
+  <!-- Main Workspace Header -->
+  <text x="210" y="78" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="700">Global Operations &amp; Real-Time Ledger Control</text>
+  <text x="210" y="96" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="11.5">Consolidated across 4 Legal Entities | 14 Active Warehouses | Base Currency: USD</text>
+
+  <rect x="780" y="64" width="118" height="28" rx="6" fill="url(#accentCyan)"/>
+  <text x="796" y="82" fill="#0F172A" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">+ New Voucher</text>
+
+  <!-- 4 KPI Cards -->
+  <rect x="210" y="112" width="162" height="84" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+  <text x="224" y="132" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="10.5" font-weight="600">CONSOLIDATED REVENUE</text>
+  <text x="224" y="158" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700">$14,820,450</text>
+  <rect x="224" y="168" width="54" height="18" rx="4" fill="#064E3B"/>
+  <text x="230" y="180" fill="#34D399" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="700">+18.4%</text>
+  <text x="284" y="180" fill="#64748B" font-family="Inter, system-ui, sans-serif" font-size="10">vs Q3</text>
+
+  <rect x="384" y="112" width="162" height="84" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+  <text x="398" y="132" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="10.5" font-weight="600">INVENTORY VALUATION</text>
+  <text x="398" y="158" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700">$3,412,890</text>
+  <text x="398" y="180" fill="#38BDF8" font-family="Inter, system-ui, sans-serif" font-size="10.5" font-weight="600">99.94% Perpetual Accuracy</text>
+
+  <rect x="558" y="112" width="162" height="84" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+  <text x="572" y="132" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="10.5" font-weight="600">ACTIVE WORK ORDERS</text>
+  <text x="572" y="158" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700">128 Runs</text>
+  <text x="572" y="180" fill="#FBBF24" font-family="Inter, system-ui, sans-serif" font-size="10.5" font-weight="600">96.2% On-Schedule OEE</text>
+
+  <rect x="732" y="112" width="166" height="84" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+  <text x="746" y="132" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="10.5" font-weight="600">NET CASH POSITION</text>
+  <text x="746" y="158" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700">$4,905,120</text>
+  <text x="746" y="180" fill="#34D399" font-family="Inter, system-ui, sans-serif" font-size="10.5" font-weight="600">Auto-Bank Synced 2m ago</text>
+
+  <!-- Middle Row: Cash Flow & Margin Chart + Live Module Telemetry -->
+  <rect x="210" y="210" width="444" height="175" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+  <text x="228" y="234" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="12.5" font-weight="600">Revenue, COGS &amp; Operating Margin Trajectory</text>
+  <circle cx="530" cy="230" r="4" fill="#38BDF8"/>
+  <text x="540" y="234" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="10">Revenue</text>
+  <circle cx="592" cy="230" r="4" fill="#10B981"/>
+  <text x="602" y="234" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="10">EBITDA</text>
+
+  <!-- Grid Lines -->
+  <line x1="228" y1="260" x2="636" y2="260" stroke="#1E293B" stroke-dasharray="3 3"/>
+  <line x1="228" y1="295" x2="636" y2="295" stroke="#1E293B" stroke-dasharray="3 3"/>
+  <line x1="228" y1="330" x2="636" y2="330" stroke="#1E293B" stroke-dasharray="3 3"/>
+  <line x1="228" y1="362" x2="636" y2="362" stroke="#334155"/>
+
+  <!-- Area Chart 1 -->
+  <path d="M228 340 L290 322 L355 328 L420 296 L485 282 L555 262 L636 248 L636 362 L228 362 Z" fill="url(#chartFill)"/>
+  <path d="M228 340 L290 322 L355 328 L420 296 L485 282 L555 262 L636 248" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Area Chart 2 -->
+  <path d="M228 352 L290 344 L355 342 L420 325 L485 316 L555 300 L636 286 L636 362 L228 362 Z" fill="url(#chartFill2)"/>
+  <path d="M228 352 L290 344 L355 342 L420 325 L485 316 L555 300 L636 286" stroke="#10B981" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Right Panel: Multi-Warehouse & MRP Status -->
+  <rect x="666" y="210" width="232" height="175" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+  <text x="682" y="234" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="12.5" font-weight="600">Warehouse &amp; Plant Load</text>
+
+  <text x="682" y="260" fill="#CBD5E1" font-family="Inter, system-ui, sans-serif" font-size="11">US-East Fulfillment Hub</text>
+  <text x="854" y="260" fill="#38BDF8" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">92%</text>
+  <rect x="682" y="267" width="200" height="7" rx="3.5" fill="#0F172A"/>
+  <rect x="682" y="267" width="184" height="7" rx="3.5" fill="#38BDF8"/>
+
+  <text x="682" y="298" fill="#CBD5E1" font-family="Inter, system-ui, sans-serif" font-size="11">EU-Central Cold Chain</text>
+  <text x="854" y="298" fill="#10B981" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">78%</text>
+  <rect x="682" y="305" width="200" height="7" rx="3.5" fill="#0F172A"/>
+  <rect x="682" y="305" width="156" height="7" rx="3.5" fill="#10B981"/>
+
+  <text x="682" y="336" fill="#CBD5E1" font-family="Inter, system-ui, sans-serif" font-size="11">APAC Assembly Plant #2</text>
+  <text x="854" y="336" fill="#A855F7" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">86%</text>
+  <rect x="682" y="343" width="200" height="7" rx="3.5" fill="#0F172A"/>
+  <rect x="682" y="343" width="172" height="7" rx="3.5" fill="#A855F7"/>
+
+  <text x="682" y="370" fill="#64748B" font-family="Inter, system-ui, sans-serif" font-size="10">Batch &amp; Serial Traceability: Active</text>
+
+  <!-- Bottom Table: Live Document & Workflow Stream -->
+  <rect x="210" y="397" width="688" height="148" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+  <text x="228" y="420" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="12.5" font-weight="600">Real-Time Cross-Module Document Ledger</text>
+  <text x="770" y="420" fill="#38BDF8" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Audit Trail Verified -&gt;</text>
+
+  <line x1="210" y1="432" x2="898" y2="432" stroke="#1E293B"/>
+  
+  <!-- Table Row 1 -->
+  <text x="228" y="454" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600">TX-SINV-2026-04912</text>
+  <text x="380" y="454" fill="#E2E8F0" font-family="Inter, system-ui, sans-serif" font-size="11">Aether Robotics GmbH - Enterprise Order</text>
+  <text x="650" y="454" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">$184,500.00</text>
+  <rect x="760" y="441" width="118" height="19" rx="9.5" fill="#064E3B"/>
+  <text x="774" y="454" fill="#34D399" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="600">GL Posted &amp; Paid</text>
+
+  <!-- Table Row 2 -->
+  <text x="228" y="484" fill="#A855F7" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600">TX-WO-2026-01184</text>
+  <text x="380" y="484" fill="#E2E8F0" font-family="Inter, system-ui, sans-serif" font-size="11">BOM-TX900 Servo Actuator Subassembly (500u)</text>
+  <text x="650" y="484" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">$62,310.00</text>
+  <rect x="760" y="471" width="118" height="19" rx="9.5" fill="#1E3A8A"/>
+  <text x="774" y="484" fill="#93C5FD" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="600">In Operation (QC)</text>
+
+  <!-- Table Row 3 -->
+  <text x="228" y="514" fill="#10B981" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600">TX-PR-2026-08320</text>
+  <text x="380" y="514" fill="#E2E8F0" font-family="Inter, system-ui, sans-serif" font-size="11">3-Way Matched Purchase Receipt - Nordic Silicon</text>
+  <text x="650" y="514" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">$94,120.00</text>
+  <rect x="760" y="501" width="118" height="19" rx="9.5" fill="#064E3B"/>
+  <text x="774" y="514" fill="#34D399" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="600">Stock &amp; AP Synced</text>
+</svg>
