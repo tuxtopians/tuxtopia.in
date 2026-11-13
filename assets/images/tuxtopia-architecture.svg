@@ -2,78 +2,78 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" fill="none">
   <defs>
     <linearGradient id="archBg" x1="0" y1="0" x2="960" y2="340" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#1E293B"/>
+      <stop offset="0%" stop-color="#F6FBFB"/>
+      <stop offset="100%" stop-color="#E7F4F3"/>
     </linearGradient>
     <linearGradient id="archStroke" x1="0" y1="0" x2="960" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="50%" stop-color="#6366F1"/>
-      <stop offset="100%" stop-color="#10B981"/>
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="50%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#14B8A6"/>
     </linearGradient>
   </defs>
-  <rect width="960" height="340" rx="16" fill="url(#archBg)" stroke="#334155" stroke-width="1.5"/>
+  <rect width="960" height="340" rx="16" fill="url(#archBg)" stroke="#B7D4D0" stroke-width="1.5"/>
   
   <!-- Left Column: Channels & Inputs -->
-  <rect x="32" y="36" width="220" height="268" rx="12" fill="#0B1120" stroke="#334155"/>
-  <text x="52" y="64" fill="#38BDF8" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="1">OMNICHANNEL INPUTS</text>
+  <rect x="32" y="36" width="220" height="268" rx="12" fill="#FFFFFF" stroke="#B7D4D0"/>
+  <text x="52" y="64" fill="#0D9488" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="1">OMNICHANNEL INPUTS</text>
   
-  <rect x="48" y="82" width="188" height="42" rx="8" fill="#1E293B"/>
-  <text x="64" y="107" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">B2B Customer &amp; Vendor Portals</text>
+  <rect x="48" y="82" width="188" height="42" rx="8" fill="#E7F4F3"/>
+  <text x="64" y="107" fill="#123532" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">B2B Customer &amp; Vendor Portals</text>
 
-  <rect x="48" y="136" width="188" height="42" rx="8" fill="#1E293B"/>
-  <text x="64" y="161" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Retail POS &amp; Barcode Scanners</text>
+  <rect x="48" y="136" width="188" height="42" rx="8" fill="#E7F4F3"/>
+  <text x="64" y="161" fill="#123532" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Retail POS &amp; Barcode Scanners</text>
 
-  <rect x="48" y="190" width="188" height="42" rx="8" fill="#1E293B"/>
-  <text x="64" y="215" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Shopify / Woo / 3PL Webhooks</text>
+  <rect x="48" y="190" width="188" height="42" rx="8" fill="#E7F4F3"/>
+  <text x="64" y="215" fill="#123532" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Shopify / Woo / 3PL Webhooks</text>
 
-  <rect x="48" y="244" width="188" height="42" rx="8" fill="#1E293B"/>
-  <text x="64" y="269" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Shop-Floor IoT &amp; Biometrics</text>
+  <rect x="48" y="244" width="188" height="42" rx="8" fill="#E7F4F3"/>
+  <text x="64" y="269" fill="#123532" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Shop-Floor IoT &amp; Biometrics</text>
 
   <!-- Connector Arrows Left to Center -->
   <path d="M252 103 H318 M252 157 H318 M252 211 H318 M252 265 H318" stroke="url(#archStroke)" stroke-width="2" stroke-dasharray="4 4"/>
 
   <!-- Center Core: Tuxtopia Unified ERP Engine -->
-  <rect x="318" y="26" width="324" height="288" rx="14" fill="#0B1120" stroke="url(#archStroke)" stroke-width="2"/>
-  <text x="348" y="56" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700">TUXTOPIA UNIFIED ERP CORE</text>
-  <text x="348" y="74" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="11">Metadata-Driven Document &amp; Ledger Engine</text>
+  <rect x="318" y="26" width="324" height="288" rx="14" fill="#FFFFFF" stroke="url(#archStroke)" stroke-width="2"/>
+  <text x="348" y="56" fill="#123532" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700">TUXTOPIA UNIFIED ERP CORE</text>
+  <text x="348" y="74" fill="#5F7D79" font-family="Inter, system-ui, sans-serif" font-size="11">Metadata-Driven Document &amp; Ledger Engine</text>
 
-  <rect x="338" y="90" width="136" height="54" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="1"/>
-  <text x="352" y="114" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="11.5" font-weight="600">General Ledger</text>
-  <text x="352" y="130" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="10">Multi-Currency &amp; Tax</text>
+  <rect x="338" y="90" width="136" height="54" rx="8" fill="#E7F4F3" stroke="#0D9488" stroke-width="1"/>
+  <text x="352" y="114" fill="#123532" font-family="Inter, system-ui, sans-serif" font-size="11.5" font-weight="600">General Ledger</text>
+  <text x="352" y="130" fill="#5F7D79" font-family="Inter, system-ui, sans-serif" font-size="10">Multi-Currency &amp; Tax</text>
 
-  <rect x="486" y="90" width="136" height="54" rx="8" fill="#1E293B" stroke="#10B981" stroke-width="1"/>
-  <text x="500" y="114" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="11.5" font-weight="600">Perpetual Stock</text>
-  <text x="500" y="130" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="10">Batch, Serial &amp; FIFO</text>
+  <rect x="486" y="90" width="136" height="54" rx="8" fill="#E7F4F3" stroke="#14B8A6" stroke-width="1"/>
+  <text x="500" y="114" fill="#123532" font-family="Inter, system-ui, sans-serif" font-size="11.5" font-weight="600">Perpetual Stock</text>
+  <text x="500" y="130" fill="#5F7D79" font-family="Inter, system-ui, sans-serif" font-size="10">Batch, Serial &amp; FIFO</text>
 
-  <rect x="338" y="156" width="136" height="54" rx="8" fill="#1E293B" stroke="#6366F1" stroke-width="1"/>
-  <text x="352" y="180" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="11.5" font-weight="600">MRP &amp; Shop Floor</text>
-  <text x="352" y="196" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="10">Multi-Level BOM &amp; QC</text>
+  <rect x="338" y="156" width="136" height="54" rx="8" fill="#E7F4F3" stroke="#0F766E" stroke-width="1"/>
+  <text x="352" y="180" fill="#123532" font-family="Inter, system-ui, sans-serif" font-size="11.5" font-weight="600">MRP &amp; Shop Floor</text>
+  <text x="352" y="196" fill="#5F7D79" font-family="Inter, system-ui, sans-serif" font-size="10">Multi-Level BOM &amp; QC</text>
 
-  <rect x="486" y="156" width="136" height="54" rx="8" fill="#1E293B" stroke="#A855F7" stroke-width="1"/>
-  <text x="500" y="180" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="11.5" font-weight="600">HCM &amp; Projects</text>
-  <text x="500" y="196" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="10">Payroll &amp; Timesheets</text>
+  <rect x="486" y="156" width="136" height="54" rx="8" fill="#E7F4F3" stroke="#A855F7" stroke-width="1"/>
+  <text x="500" y="180" fill="#123532" font-family="Inter, system-ui, sans-serif" font-size="11.5" font-weight="600">HCM &amp; Projects</text>
+  <text x="500" y="196" fill="#5F7D79" font-family="Inter, system-ui, sans-serif" font-size="10">Payroll &amp; Timesheets</text>
 
-  <rect x="338" y="224" width="284" height="68" rx="8" fill="#172554" stroke="#3B82F6" stroke-width="1"/>
-  <text x="354" y="248" fill="#93C5FD" font-family="Inter, system-ui, sans-serif" font-size="11.5" font-weight="700">CUSTOM WORKFLOW &amp; SCRIPT ENGINE</text>
-  <text x="354" y="266" fill="#DBEAFE" font-family="Inter, system-ui, sans-serif" font-size="10.5">Role-Based State Machines | Custom Doctypes | Python/JS Hooks</text>
-  <text x="354" y="281" fill="#93C5FD" font-family="Inter, system-ui, sans-serif" font-size="10">Zero-Downtime Schema Migrations &amp; Immutable Audit Logs</text>
+  <rect x="338" y="224" width="284" height="68" rx="8" fill="#0F766E" stroke="#0D9488" stroke-width="1"/>
+  <text x="354" y="248" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="11.5" font-weight="700">CUSTOM WORKFLOW &amp; SCRIPT ENGINE</text>
+  <text x="354" y="266" fill="#CCFBF1" font-family="Inter, system-ui, sans-serif" font-size="10.5">Role-Based State Machines | Custom Doctypes | Python/JS Hooks</text>
+  <text x="354" y="281" fill="#99F6E4" font-family="Inter, system-ui, sans-serif" font-size="10">Zero-Downtime Schema Migrations &amp; Immutable Audit Logs</text>
 
   <!-- Connector Arrows Center to Right -->
   <path d="M642 103 H708 M642 157 H708 M642 211 H708 M642 265 H708" stroke="url(#archStroke)" stroke-width="2" stroke-dasharray="4 4"/>
 
   <!-- Right Column: Enterprise Outputs & Compliance -->
-  <rect x="708" y="36" width="220" height="268" rx="12" fill="#0B1120" stroke="#334155"/>
-  <text x="728" y="64" fill="#10B981" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="1">ENTERPRISE OUTPUTS</text>
+  <rect x="708" y="36" width="220" height="268" rx="12" fill="#FFFFFF" stroke="#B7D4D0"/>
+  <text x="728" y="64" fill="#14B8A6" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="1">ENTERPRISE OUTPUTS</text>
 
-  <rect x="724" y="82" width="188" height="42" rx="8" fill="#1E293B"/>
-  <text x="740" y="107" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">IFRS / GAAP Financial Statements</text>
+  <rect x="724" y="82" width="188" height="42" rx="8" fill="#E7F4F3"/>
+  <text x="740" y="107" fill="#123532" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">IFRS / GAAP Financial Statements</text>
 
-  <rect x="724" y="136" width="188" height="42" rx="8" fill="#1E293B"/>
-  <text x="740" y="161" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Automated Bank &amp; Tax Filings</text>
+  <rect x="724" y="136" width="188" height="42" rx="8" fill="#E7F4F3"/>
+  <text x="740" y="161" fill="#123532" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Automated Bank &amp; Tax Filings</text>
 
-  <rect x="724" y="190" width="188" height="42" rx="8" fill="#1E293B"/>
-  <text x="740" y="215" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Executive BI &amp; Cash Forecasting</text>
+  <rect x="724" y="190" width="188" height="42" rx="8" fill="#E7F4F3"/>
+  <text x="740" y="215" fill="#123532" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Executive BI &amp; Cash Forecasting</text>
 
-  <rect x="724" y="244" width="188" height="42" rx="8" fill="#1E293B"/>
-  <text x="740" y="269" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">REST / GraphQL &amp; Webhook Bus</text>
+  <rect x="724" y="244" width="188" height="42" rx="8" fill="#E7F4F3"/>
+  <text x="740" y="269" fill="#123532" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">REST / GraphQL &amp; Webhook Bus</text>
 </svg>
