@@ -45,8 +45,22 @@
   <text x="346" y="27" fill="#64748B" font-family="Inter, system-ui, sans-serif" font-size="11">Search vouchers, ledgers, BOMs, SKUs... (Ctrl+K)</text>
 
   <!-- Status Pill -->
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .live-pulse { animation: livePulse 1.7s ease-in-out infinite; }
+      .chart-draw { stroke-dasharray: 520; animation: chartDraw 6.5s ease-in-out infinite; }
+    }
+    @keyframes livePulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.28; }
+    }
+    @keyframes chartDraw {
+      0% { stroke-dashoffset: 520; }
+      45%, 100% { stroke-dashoffset: 0; }
+    }
+  </style>
   <rect x="760" y="12" width="140" height="22" rx="11" fill="#064E3B" stroke="#059669" stroke-width="1"/>
-  <circle cx="774" cy="23" r="4" fill="#10B981"/>
+  <circle class="live-pulse" cx="774" cy="23" r="4" fill="#10B981"/>
   <text x="784" y="27" fill="#A7F3D0" font-family="Inter, system-ui, sans-serif" font-size="10.5" font-weight="600">Multi-Entity Sync Live</text>
 
   <!-- Left Navigation Sidebar -->
@@ -133,7 +147,7 @@
 
   <!-- Area Chart 1 -->
   <path d="M228 340 L290 322 L355 328 L420 296 L485 282 L555 262 L636 248 L636 362 L228 362 Z" fill="url(#chartFill)"/>
-  <path d="M228 340 L290 322 L355 328 L420 296 L485 282 L555 262 L636 248" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+  <path class="chart-draw" d="M228 340 L290 322 L355 328 L420 296 L485 282 L555 262 L636 248" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
 
   <!-- Area Chart 2 -->
   <path d="M228 352 L290 344 L355 342 L420 325 L485 316 L555 300 L636 286 L636 362 L228 362 Z" fill="url(#chartFill2)"/>
