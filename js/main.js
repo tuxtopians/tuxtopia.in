@@ -550,27 +550,105 @@ document.addEventListener('DOMContentLoaded', () => {
   // Render default module (Finance)
   renderErpModule('finance');
 
+  const closeEnterpriseNav = () => {
+    document.body.classList.remove('nav-open');
+    const toggle = document.getElementById('mobile-menu-toggle');
+    if (toggle) toggle.setAttribute('aria-expanded', 'false');
+    document.querySelectorAll('.nav-item.has-menu').forEach((item) => {
+      item.classList.remove('is-open');
+      const trigger = item.querySelector('.nav-trigger');
+      if (trigger) trigger.setAttribute('aria-expanded', 'false');
+    });
+  };
+
+  const isCompactNav = () => window.matchMedia('(max-width: 1080px)').matches;
+
+  const setMenuOpen = (item, open) => {
+    item.classList.toggle('is-open', open);
+    const trigger = item.querySelector('.nav-trigger');
+    if (trigger) trigger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  };
+
+  document.querySelectorAll('.nav-item.has-menu').forEach((item) => {
+    const trigger = item.querySelector('.nav-trigger');
+    if (!trigger) return;
+
+    trigger.addEventListener('click', (e) => {
+      if (!isCompactNav()) return;
+      e.preventDefault();
+      const willOpen = !item.classList.contains('is-open');
+      document.querySelectorAll('.nav-item.has-menu').forEach((other) => {
+        if (other !== item) setMenuOpen(other, false);
+      });
+      setMenuOpen(item, willOpen);
+    });
+
+    item.addEventListener('mouseenter', () => {
+      if (isCompactNav()) return;
+      document.querySelectorAll('.nav-item.has-menu').forEach((other) => {
+        setMenuOpen(other, other === item);
+        if (other !== item) other.querySelector('.nav-trigger')?.blur();
+      });
+    });
+
+    item.addEventListener('mouseleave', () => {
+      if (isCompactNav()) return;
+      setMenuOpen(item, false);
+    });
+  });
+
+  const menuBtn = document.getElementById('mobile-menu-toggle');
+  const overlay = document.getElementById('nav-overlay');
+  const drawerClose = document.getElementById('drawer-close');
+  const header = document.getElementById('site-header');
+
+  const openDrawer = () => {
+    document.body.classList.add('nav-open');
+    if (menuBtn) menuBtn.setAttribute('aria-expanded', 'true');
+  };
+
+  if (menuBtn) {
+    menuBtn.addEventListener('click', () => {
+      if (document.body.classList.contains('nav-open')) {
+        closeEnterpriseNav();
+      } else {
+        openDrawer();
+      }
+    });
+  }
+
+  if (overlay) overlay.addEventListener('click', closeEnterpriseNav);
+  if (drawerClose) drawerClose.addEventListener('click', closeEnterpriseNav);
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeEnterpriseNav();
+  });
+
+  window.addEventListener('resize', () => {
+    if (!isCompactNav()) closeEnterpriseNav();
+  });
+
+  window.addEventListener('scroll', () => {
+    if (header) header.classList.toggle('is-scrolled', window.scrollY > 8);
+  }, { passive: true });
+
+  document.querySelectorAll('#primary-nav a').forEach((link) => {
+    link.addEventListener('click', () => closeEnterpriseNav());
+  });
+
   // Allow clicking any module card in the 9-module grid to jump to & activate that module in the live command center
   document.querySelectorAll('[data-jump-module]').forEach((el) => {
     el.addEventListener('click', (e) => {
       e.preventDefault();
       const targetMod = el.getAttribute('data-jump-module');
       renderErpModule(targetMod);
+      closeEnterpriseNav();
       const showcase = document.getElementById('interactive-platform');
       if (showcase) {
         showcase.scrollIntoView({ behavior: 'smooth' });
       }
     });
   });
-
-  // Mobile Menu Toggle
-  const menuBtn = document.getElementById('mobile-menu-toggle');
-  const navLinks = document.getElementById('primary-nav-links');
-  if (menuBtn && navLinks) {
-    menuBtn.addEventListener('click', () => {
-      navLinks.classList.toggle('open');
-    });
-  }
 
   // Consultation Form Handler
   const consultForm = document.getElementById('tuxtopia-consultation-form');
