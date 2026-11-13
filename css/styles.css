@@ -327,17 +327,6 @@ img, svg {
   margin-bottom: 16px;
 }
 
-.mega-cta {
-  display: inline-flex;
-  font-size: 0.84rem;
-  font-weight: 700;
-  color: var(--accent-cyan);
-}
-
-.mega-cta:hover {
-  color: #7dd3fc;
-}
-
 .mega-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
