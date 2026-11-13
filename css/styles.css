@@ -111,39 +111,16 @@ img, svg {
 .utility-bar-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 16px;
   min-height: 36px;
 }
 
-.utility-meta,
 .utility-links {
   display: flex;
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
-}
-
-.utility-status {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--text-secondary);
-  font-weight: 600;
-}
-
-.badge-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background-color: var(--accent-emerald);
-  box-shadow: 0 0 8px var(--accent-emerald);
-}
-
-.utility-divider {
-  width: 1px;
-  height: 12px;
-  background: var(--border-subtle);
 }
 
 .utility-links a {
@@ -1712,7 +1689,6 @@ section {
 }
 
 @media (max-width: 720px) {
-  .utility-meta,
   .utility-regions {
     display: none;
   }
