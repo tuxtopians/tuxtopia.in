@@ -99,47 +99,6 @@ img, svg {
   top: 12px;
 }
 
-/* Utility bar */
-.utility-bar {
-  background: #050811;
-  border-bottom: 1px solid var(--border-subtle);
-  font-size: 0.75rem;
-  letter-spacing: 0.02em;
-  color: var(--text-muted);
-}
-
-.utility-bar-inner {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 16px;
-  min-height: 36px;
-}
-
-.utility-links {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.utility-links a {
-  color: var(--text-secondary);
-  font-weight: 600;
-}
-
-.utility-links a:hover {
-  color: var(--accent-cyan);
-}
-
-.utility-regions {
-  color: var(--text-subtle);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.7rem;
-  font-weight: 700;
-}
-
 /* Sticky Navbar */
 .navbar {
   position: sticky;
@@ -1763,14 +1722,6 @@ section {
 }
 
 @media (max-width: 720px) {
-  .utility-regions {
-    display: none;
-  }
-
-  .utility-bar-inner {
-    justify-content: center;
-  }
-
   .brand-sub {
     display: none;
   }
