@@ -487,9 +487,9 @@ function renderErpModule(moduleKey) {
         (r) => `
         <tr>
           <td><span class="erp-doc-id">${r.id}</span></td>
-          <td><strong style="color: #f8fafc;">${r.col1}</strong></td>
+          <td><strong style="color: var(--text-primary);">${r.col1}</strong></td>
           <td>${r.col2}</td>
-          <td class="mono" style="color: #e2e8f0; font-weight: 600;">${r.col3}</td>
+          <td class="mono" style="color: var(--text-primary); font-weight: 600;">${r.col3}</td>
           <td><span class="status-pill ${r.pill}">${r.status}</span></td>
         </tr>`
       )
